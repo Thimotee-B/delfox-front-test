@@ -1,0 +1,14 @@
+.listContainer {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.listContainer>div {
+    margin-left: 50px;
+}
+
+.listContainer>div:first-child {
+    margin-left: 0;
+    /* Enlever la marge à gauche pour la première liste */
+}

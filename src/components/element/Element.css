@@ -1,0 +1,21 @@
+.selected {
+    border: red solid 3px;
+}
+
+.box {
+    float: left;
+    height: 30px;
+    width: 30px;
+    clear: both;
+    border-radius: 3px;
+}
+
+.elementContainer {
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.elementContainer>* {
+    margin: 2px;
+}
